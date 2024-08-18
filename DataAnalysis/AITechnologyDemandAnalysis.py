@@ -55,7 +55,7 @@ plt.show()
 # Visualisierung der Korrelationsmatrix mit einer Heatmap
 plt.figure(figsize=(18, 10))
 sns.heatmap(correlation_matrix, cmap="coolwarm", annot=True, fmt='.2f')
-plt.title('Korrelationen zwischen Technologien')
+plt.title('Zusammenhänge zwischen Technologien')
 plt.xlabel('Technologien')
 plt.ylabel('Technologien')
 plt.xticks(rotation=45, ha='right')
