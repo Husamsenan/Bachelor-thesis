@@ -12,7 +12,7 @@ cities = cities_data['Stadt'].dropna().tolist()
 cities = ['Frankfurt' if 'Frankfurt' in city else city for city in cities]
 
 # Laden der Hauptdaten CSV-Datei
-file_path = '../Daten/cleaned_merged_final.csv'  # Ersetzen Sie dies durch den korrekten Pfad zu Ihrer Datei
+file_path = '../Daten/cleaned_merged_final.csv'  
 data = pd.read_csv(file_path)
 
 # Zählen der Vorkommen jeder Stadt in der Spalte 'job_location' mit genauer Übereinstimmung
