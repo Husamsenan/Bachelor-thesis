@@ -7,17 +7,17 @@ def remove_html_tags(text):
 
 # Load and clean stepstone_final.csv
 try:
-    df_stepstone = pd.read_csv('stepstone_jobs_final.csv', encoding='utf-8')
+    df_stepstone = pd.read_csv('../WebScraping/stepstone_jobs_final.csv', encoding='utf-8')
 except UnicodeDecodeError:
-    df_stepstone = pd.read_csv('stepstone_jobs_final.csv', encoding='ISO-8859-1')
+    df_stepstone = pd.read_csv('../WebScraping/stepstone_jobs_final.csv', encoding='ISO-8859-1')
 
 df_stepstone['description'] = df_stepstone['description'].apply(remove_html_tags)
 
 # Load and clean indeed_final.csv
 try:
-    df_indeed = pd.read_csv('indeed_jobs_final.csv', encoding='utf-8')
+    df_indeed = pd.read_csv('../WebScraping/indeed_jobs_final.csv', encoding='utf-8')
 except UnicodeDecodeError:
-    df_indeed = pd.read_csv('indeed_jobs_final.csv', encoding='ISO-8859-1')
+    df_indeed = pd.read_csv('../WebScraping/indeed_jobs_final.csv', encoding='ISO-8859-1')
 
 df_indeed['description'] = df_indeed['description'].apply(remove_html_tags)
 
