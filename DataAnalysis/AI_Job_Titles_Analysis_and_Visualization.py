@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Laden der Daten
-file_path = '../Daten/cleaned_merged_final.csv'  # Bitte passe den Pfad zu deiner Datei an
+file_path = '../Daten/cleaned_merged_final.csv' 
 data = pd.read_csv(file_path)
 
 # Funktion zum Vereinfachen und Gruppieren von Jobtiteln
