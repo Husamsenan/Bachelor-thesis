@@ -10,7 +10,7 @@ data = pd.read_csv(file_path)
 company_counts = data['company_name'].value_counts()
 
 # Speichern der Daten als CSV-Datei
-output_file_path = '../Tables/company_job_counts.csv'  # Passe den Dateinamen nach Bedarf an
+output_file_path = '../Tables/company_job_counts.csv' 
 company_counts.to_csv(output_file_path, header=['Anzahl der Jobangebote'])
 
 # Sicherstellen, dass die Top 100 Unternehmen vollständig angezeigt werden
