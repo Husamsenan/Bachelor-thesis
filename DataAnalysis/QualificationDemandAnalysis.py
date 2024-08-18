@@ -66,7 +66,7 @@ plt.show()
 # Heatmap für die Korrelationsanalyse
 plt.figure(figsize=(20, 12))
 sns.heatmap(correlation_matrix, cmap="coolwarm", annot=True, fmt='.2f')
-plt.title('Korrelationen zwischen Qualifikationen', fontsize=20)
+plt.title('Zusammenhänge zwischen Qualifikationen', fontsize=20)
 plt.xlabel('Qualifikationen', fontsize=16)
 plt.ylabel('Qualifikationen', fontsize=16)
 plt.xticks(rotation=45, ha='right', fontsize=14)
