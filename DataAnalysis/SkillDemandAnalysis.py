@@ -66,7 +66,7 @@ plt.show()
 # Visualisierung der Korrelationsmatrix mit einer Heatmap
 plt.figure(figsize=(20, 12))
 sns.heatmap(correlation_matrix, cmap="coolwarm", annot=True, fmt='.2f')
-plt.title('Korrelationen zwischen Skills', fontsize=20)
+plt.title('Zusammenhänge zwischen Skills', fontsize=20)
 plt.xlabel('Skills', fontsize=16)
 plt.ylabel('Skills', fontsize=16)
 plt.xticks(rotation=45, ha='right', fontsize=14)
