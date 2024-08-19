@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Laden der Daten
-file_path = '../Daten/cleaned_merged_final.csv'
+file_path = '../cleaned_merged_final.csv'
 data = pd.read_csv(file_path)
 
 # Zählen der Vorkommen jedes Unternehmens in der Spalte company_name
