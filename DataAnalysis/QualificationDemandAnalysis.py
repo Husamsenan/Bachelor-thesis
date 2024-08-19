@@ -4,7 +4,7 @@ import seaborn as sns
 import re
 
 # Lesen der CSV-Datei
-file_path = '../Daten/cleaned_merged_final.csv'
+file_path = '../cleaned_merged_final.csv'
 data = pd.read_csv(file_path)
 
 # Top 15 Städte
