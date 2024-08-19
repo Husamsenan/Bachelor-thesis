@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Datei einlesen
-file_path = '../Daten/cleaned_merged_final.csv'
+file_path = '../cleaned_merged_final.csv'
 data = pd.read_csv(file_path)
 
 # Überprüfen der ersten paar Zeilen der 'description'-Spalte
